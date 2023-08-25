@@ -1,0 +1,18 @@
+[package]
+name = "cli-helpers"
+authors = ["Travis Brown <travisrobertbrown@gmail.com>"]
+homepage = "https://github.com/travisbrown/cli-helpers"
+repository = "https://github.com/travisbrown/cli-helpers"
+description = "Opinionated helpers for command-line applications"
+keywords = ["cli"]
+license-file = "LICENSE"
+readme = "README.md"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+clap = { version = "4", features = ["derive"] }
+log = "0.4"
+simplelog = "0.12"
+thiserror = "1"
